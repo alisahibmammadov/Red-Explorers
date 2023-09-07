@@ -1,0 +1,132 @@
+.contact-form {
+  display: flex;
+  justify-content: center;
+}
+.form-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  width: 865px;
+  padding: 90px 0;
+}
+.form-page h2 {
+  display: flex;
+  width: 546px;
+  height: 19px;
+  padding: 0px 10px 5px 0px;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 14px;
+}
+.form-page .form-input {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+.form-page .form-input input {
+  width: 415px;
+  height: 56px;
+  flex-shrink: 0;
+  fill: #fff;
+  stroke-width: 1px;
+  stroke: var(--Gray-2, #dde2e5);
+  color: #6e7191;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration-line: underline;
+  padding-left: 20px;
+  outline: none;
+  border: 1px solid #dde2e5;
+  border-radius: 8px;
+}
+.form-page .form-textarea {
+  width: 100%;
+}
+.form-page .form-textarea textarea {
+  border-radius: 8px;
+  display: flex;
+  width: 854px;
+  height: 212px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  color: #6e7191;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration-line: underline;
+  resize: none;
+  outline: none;
+  border: 1px solid #dde2e5;
+}
+.form-page button {
+  width: 124px;
+  height: 33px;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  background: #0336ff;
+  border-radius: 8px;
+  border: transparent;
+}
+
+.contact-subscribe {
+    padding: 60px 170px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #C4C4C4;
+    margin-bottom: 20px;
+}
+.subscribe-page {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.subscribe-page h3 {
+  width: 474px;
+  height: 147px;
+  flex-shrink: 0;
+  color: #000;
+  font-size: 30px;
+  font-weight: 700;
+}
+.subscribe-page h3 span{
+    color: #0336FF;
+}
+.subscribe-page .subscribe-input {
+display: flex;
+align-items: center;
+gap: 20px;
+}
+.subscribe-page .subscribe-input input {
+    width: 330px;
+height: 78px;
+flex-shrink: 0;
+border-radius: 8px;
+border: 1px solid #C4C4C4;
+background: #FFF;
+padding-left: 20px;
+outline: none;
+font-size: 20px;
+}
+.subscribe-page .subscribe-input button {
+    width: 201px;
+height: 78px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #0336FF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+color: #fff;
+border: transparent;
+color: #FFF;
+font-size: 20px;
+font-weight: 400;
+}
