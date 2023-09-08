@@ -47,7 +47,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  gap: 20px;
+  gap: 40px;
 }
 .home-box h4 {
   color: #fff;
@@ -87,7 +87,7 @@
 
 .home-box .location {
   position: absolute;
-  top: 500px;
+  top: 570px;
   right: 100px;
 }
 .home-box .location i {
