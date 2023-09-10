@@ -1,14 +1,15 @@
 .landing-page-container {
   background: #fefefe;
   padding: 50px 100px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 .landing-page-left {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   gap: 50px;
-}
-.landing-page-right {
 }
 
 /* *********************** */
@@ -171,7 +172,11 @@
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 /* ////////////////////////////////////// */
-
+.left-recent-card {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
 .recent-head {
   width: 445px;
   height: 107px;
@@ -188,4 +193,327 @@
   line-height: 46.983px;
   margin: auto;
 }
+.recent {
+  width: 445px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.recent .recent-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.recent .recent-row img {
+  width: 100px;
+  height: 80px;
+  flex-shrink: 0;
+}
+.recent .recent-row .recent-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.recent .recent-row .recent-col h6 {
+  color: #0a0909;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 33.814px;
+  width: 397px;
+  height: 23px;
+  flex-shrink: 0;
+}
+.recent .recent-row .recent-col h4 {
+  color: #000;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  width: 371px;
+  height: 71px;
+  flex-shrink: 0;
+}
 /* ////////////////////////////////////// */
+/* *********************************** */
+.left-product-card {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.left-product-card .product-head {
+  width: 445px;
+  height: 107px;
+  flex-shrink: 0;
+  background: #fff;
+  box-shadow: 0 0 10px #ccc;
+  display: flex;
+  align-items: center;
+}
+.left-product-card .product-head h4 {
+  color: #000;
+  font-size: 31.637px;
+  font-weight: 700;
+  line-height: 46.983px;
+  margin: auto;
+}
+.product {
+  width: 445px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.product .product-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.product .product-row img {
+  width: 100px;
+  height: 80px;
+  flex-shrink: 0;
+}
+.product .product-row .product-col {
+  display: flex;
+  flex-direction: column;
+  /* gap: 10px; */
+}
+.product-row .product-col h4 {
+  color: #0a0909;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  width: 330px;
+  height: 60px;
+  flex-shrink: 0;
+}
+.product .product-row .product-col span {
+  color: #0336ff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  width: 86px;
+  height: 24px;
+  flex-shrink: 0;
+}
+/* *********************************** */
+
+/* ???????????????????????????????????? */
+.left-get-touch-card {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.left-get-touch-card .get-touch-head {
+  width: 445px;
+  height: 107px;
+  flex-shrink: 0;
+  background: #fff;
+  box-shadow: 0 0 10px #ccc;
+  display: flex;
+  align-items: center;
+}
+.left-get-touch-card .get-touch-head h4 {
+  color: #000;
+  font-size: 31.637px;
+  font-weight: 700;
+  line-height: 46.983px;
+  margin: auto;
+}
+.get-touch {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 445px;
+  flex-shrink: 0;
+  gap: 30px;
+}
+.get-touch-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 182px;
+  height: 71px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #4056ac;
+  gap: 10px;
+}
+.get-touch-wrap i {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 16px;
+}
+.get-col {
+  display: flex;
+  flex-direction: column;
+}
+.get-col span {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+}
+/* ???????????????????????????????????? */
+/* Right Start */
+.landing-page-right {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.right-first-card {
+  box-shadow: 0 0 10px #ccc;
+  padding-bottom: 20px;
+}
+.right-first-card img {
+}
+.right-first-card h2 {
+  padding: 15px;
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 33.814px;
+  width: 284px;
+  height: 34px;
+  flex-shrink: 0;
+}
+.right-first-card h3 {
+  padding: 15px;
+  width: 769.12px;
+  height: 123px;
+  flex-shrink: 0;
+  color: #000;
+  font-size: 31.637px;
+  font-weight: 600;
+  line-height: 46.983px;
+}
+.right-first-card p {
+  padding: 15px;
+  color: #000;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  width: 686px;
+  height: 150px;
+  flex-shrink: 0;
+}
+.right-first-card .right-first-card-icons {
+  padding: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.right-first-card .right-first-card-icons span {
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.right-first-card .right-first-card-icons span i {
+  color: #ffa500;
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.right-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.right-wrap-card {
+  width: 377.637px;
+  height: 550px;
+  flex-shrink: 0;
+  box-shadow: 0 0 10px #ccc;
+}
+.right-wrap-card img {
+  width: 379px;
+  height: 268px;
+  flex-shrink: 0;
+}
+.right-wrap-card .wrap-card-info {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+}
+.right-wrap-card .wrap-card-info h2 {
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 33.814px;
+}
+.right-wrap-card .wrap-card-info h3 {
+  color: #000;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 46.983px;
+  height: 90.876px;
+  flex-shrink: 0;
+}
+.right-wrap-card .wrap-card-info .right-wrap-card-icons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.right-wrap-card .wrap-card-info .right-wrap-card-icons span {
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+}
+.right-wrap-card .wrap-card-info .right-wrap-card-icons span i {
+  color: #ffa500;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* ????????????????????????????????? */
+.right-order {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  width: 777px;
+  height: 425px;
+  flex-shrink: 0;
+  background-image: url("../img/Right-order-card.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.right-order h2 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46.983px;
+  width: 746px;
+  height: 121px;
+  flex-shrink: 0;
+}
+.right-order h2 span {
+  color: #ffa500;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46.983px;
+  text-decoration-line: underline;
+}
+.right-order a {
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  width: 182px;
+  height: 71px;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 8px;
+  background: #0336ff;
+}
+/* ????????????????????????????????? */
+/* Right End */
