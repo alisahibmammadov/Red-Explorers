@@ -1,3 +1,20 @@
+.main-destination-page {
+  background-image: url("../img/destinationPage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+}
+.destination-home-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+}
+.destination-home-box h1 {
+  font-size: 64px;
+  font-weight: 800;
+  color: #fff;
+}
 .destination-container {
   display: flex;
   flex-direction: column;
@@ -117,9 +134,9 @@
   justify-content: space-between;
 }
 .destination-card-info .card-info-icons span {
-    color: #000;
-    font-size: 16px;
-    font-weight: 500;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
 }
 .destination-card-info .card-info-icons span i {
   color: #ffa500;

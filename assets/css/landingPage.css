@@ -1,3 +1,7 @@
+.main-landing-page {
+  width: 100%;
+}
+
 .landing-page-container {
   background: #fefefe;
   padding: 50px 100px;
@@ -368,8 +372,7 @@
   box-shadow: 0 0 10px #ccc;
   padding-bottom: 20px;
 }
-.right-first-card img {
-}
+
 .right-first-card h2 {
   padding: 15px;
   color: #000;
@@ -517,3 +520,13 @@
 }
 /* ????????????????????????????????? */
 /* Right End */
+
+.get1{
+  background: #60b6fd
+}
+.get2{
+  background: #fe2c3c
+}
+.get3{
+  background: #e04d92
+}

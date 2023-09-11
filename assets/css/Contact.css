@@ -1,3 +1,21 @@
+.main-contact-page {
+  background-image: url("../img/contactPage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+}
+.contact-home-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+}
+.contact-home-box h1 {
+  font-size: 64px;
+  font-weight: 800;
+  color: #fff;
+}
 .contact-form {
   display: flex;
   justify-content: center;

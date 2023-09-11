@@ -1,3 +1,22 @@
+.main-tips-page {
+  background-image: url("../img/tipsPage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+}
+.tips-home-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+}
+.tips-home-box h1 {
+  font-size: 64px;
+  font-weight: 800;
+  color: #fff;
+}
+
 .tips-container {
   padding: 70px;
 }
@@ -103,5 +122,5 @@
   font-weight: 800;
 }
 .tips-card .tips-card-icons span i {
-    font-size: 1.4rem;
+  font-size: 1.4rem;
 }
